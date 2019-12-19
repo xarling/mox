@@ -1,0 +1,23 @@
+{
+  "name": "mox",
+  "version": "0.0.1",
+  "description": "A typescript client for wiremock",
+  "main": "mox.js",
+  "scripts": {
+    "run": "ts-node mox.ts",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json"
+  },
+  "author": "xander.arling@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@akanass/rx-http-request": "^3.3.0",
+    "@types/jasmine": "^3.5.0",
+    "@types/node": "^12.12.17",
+    "jasmine": "^3.5.0",
+    "jasmine-node": "^3.0.0",
+    "rxjs": "^6.5.3",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {}
+}
